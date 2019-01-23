@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="com.ncr.mobilepicklist.activities.ActActionType">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+            <com.ncr.mobilepicklist.utils.TopMenu
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+            <!--<Button-->
+                <!--android:id="@+id/closeBtn"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:onClick= "exitApp"-->
+                <!--android:background="@drawable/exit" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pLTakePic"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:visibility="visible"
+            android:padding="20dp">
+            <Button
+                android:id="@+id/btnConnectNetwork"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:layout_gravity="center"
+                android:onClick="connectRap"
+                android:background="@drawable/big_radiusbutton"
+                android:layout_marginTop="10dp"
+
+                android:text="Connect to RAP"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:layout_gravity="center"
+                android:onClick="openSettings"
+                android:background="@drawable/big_radiusbutton"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:text="Settings"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:clickable="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#AA000000"
+        android:gravity="center"
+        android:id="@+id/popupCloseApp"
+        android:clickable="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:background="@drawable/layout_border"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="@string/closeWindowMsg"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <Button
+            android:id="@+id/btnPopupCloseAppYes"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="@string/yesBtn"
+            android:textStyle="bold"
+            android:onClick="popupCloseAppYes"
+            android:background="@drawable/radiusbutton"
+            />
+        <Button
+            android:id="@+id/btnPopupCloseAppNo"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="@string/noBtn"
+            android:textStyle="bold"
+            android:onClick="popupCloseAppNo"
+            android:background="@drawable/radiusbutton"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

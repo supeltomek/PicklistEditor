@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobilePicklist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act_pictlist_picture_changer">ActPictlistPictureChanger</string>
+    <string name="title_activity_act_main">NCR Mobile Picklist</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_act_network_settings">ActNetworkSettings</string>
+    <string name="title_activity_act_insert_upc">ActInsertUPC</string>
+    <string name="title_activity_act_save_item_confirm">ActSaveItemConfirm</string>
+    <string name="upcLbl">UPC</string>
+    <string name="saveBtn">Save</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="backBtn">Back</string>
+    <string name="okBtn">OK</string>
+    <string name="newPhotoBtn">New Photo</string>
+    <string name="takePhotoBtn">Take Photo</string>
+    <string name="yesBtn">Yes</string>
+    <string name="noBtn">No</string>
+    <string name="enterUpcBtn">Enter UPC</string>
+    <string name="nameLbl">Name</string>
+    <string name="categoryLbl">Category</string>
+    <string name="checkingItemLbl">Checking item...</string>
+    <string name="rapIpLbl">Enter RAP IP</string>
+    <string name="connectBtn">Connect</string>
+    <string name="lookingRapLbl">Looking for RAP in network</string>
+    <string name="connectRapResult">Result</string>
+    <string name="connectRapResultErrLbl">RAP was not found:</string>
+    <string name="messageLbl">Message:</string>
+    <string name="connectRapTryAgainBtn">Try Again</string>
+    <string name="connectRapChangeIpBtn">Change IP</string>
+    <string name="saveItemQuestionLbl">Do you want to save item:</string>
+    <string name="itemSaveConfirmLbl">Item was saved.\nPress OK to return to main window.</string>
+    <string name="itemProcessingLbl">Item is processing...</string>
+    <string name="closeWindowMsg">Do you really want to close application?</string>
+
+</resources>
