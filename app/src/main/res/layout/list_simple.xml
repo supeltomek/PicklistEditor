@@ -6,7 +6,7 @@
     android:clickable="true"
     android:orientation="horizontal"
     android:gravity="center"
-    tools:context="com.ncr.mobilepicklist.activities.ActInsertUPC" >
+    tools:context="com.ts.mobilepicklist.activities.ActInsertUPC" >
 
     <ListView
         android:id="@+id/simplelistview"

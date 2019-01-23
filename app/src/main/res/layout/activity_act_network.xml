@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     android:background="@drawable/background"
     android:id="@+id/act_networkSettings"
-    tools:context="com.ncr.mobilepicklist.activities.ActNetworkSettings">
+    tools:context="com.ts.mobilepicklist.activities.ActNetworkSettings">
 
     <LinearLayout
         android:layout_width="fill_parent"
