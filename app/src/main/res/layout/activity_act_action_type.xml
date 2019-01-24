@@ -19,13 +19,6 @@
             <com.ncr.mobilepicklist.utils.TopMenu
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"/>
-            <!--<Button-->
-                <!--android:id="@+id/closeBtn"-->
-                <!--android:layout_width="50dp"-->
-                <!--android:layout_height="50dp"-->
-                <!--android:layout_gravity="center"-->
-                <!--android:onClick= "exitApp"-->
-                <!--android:background="@drawable/exit" />-->
         </LinearLayout>
         <LinearLayout
             android:id="@+id/pLTakePic"

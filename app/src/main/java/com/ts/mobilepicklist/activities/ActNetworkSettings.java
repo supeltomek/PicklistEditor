@@ -4,12 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import com.ts.mobilepicklist.R;
-//import com.ncr.mobilepicklist.network.PopupNetworkList;
 import com.ts.mobilepicklist.utils.CustomActivity;
 
 import java.util.ArrayList;
+
+//import com.ncr.mobilepicklist.network.PopupNetworkList;
 
 public class ActNetworkSettings extends CustomActivity {
 

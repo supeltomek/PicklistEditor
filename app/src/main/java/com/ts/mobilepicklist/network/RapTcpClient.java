@@ -1,21 +1,12 @@
 package com.ts.mobilepicklist.network;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.util.Log;
-import android.view.View;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by ts250231 on 2015-04-29.

@@ -9,11 +9,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.image.PhotoPathHelper;
-import com.ts.mobilepicklist.network.WaitingForSaveImage;
 import com.ts.mobilepicklist.network.RAP;
+import com.ts.mobilepicklist.network.WaitingForSaveImage;
 
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;

@@ -1,12 +1,9 @@
 package com.ts.mobilepicklist.image;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.hardware.Camera;
 import android.os.AsyncTask;
 import android.util.Log;
-
 import com.ts.mobilepicklist.activities.ActPictlistPictureChanger;
 import com.ts.mobilepicklist.network.RAP;
 

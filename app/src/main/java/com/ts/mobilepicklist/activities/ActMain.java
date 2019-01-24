@@ -1,19 +1,16 @@
 package com.ts.mobilepicklist.activities;
 
 import android.content.Intent;
-//import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.network.RAP;
 import com.ts.mobilepicklist.network.WaitingForRap;
 import com.ts.mobilepicklist.utils.CustomActivity;
+
+//import android.support.v7.app.ActionBarActivity;
 
 public class ActMain extends CustomActivity {
 

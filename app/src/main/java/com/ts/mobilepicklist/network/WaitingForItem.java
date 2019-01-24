@@ -1,18 +1,14 @@
 package com.ts.mobilepicklist.network;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.activities.ActSaveItemConfirm;
 import com.ts.mobilepicklist.utils.LayoutWorker;
-
-import java.io.IOException;
 
 /**
  * Created by ts250231 on 2015-06-15.

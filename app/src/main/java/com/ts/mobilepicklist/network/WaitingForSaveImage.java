@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.LinearLayout;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.utils.LayoutWorker;
 

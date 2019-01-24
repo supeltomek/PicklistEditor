@@ -1,8 +1,6 @@
 package com.ts.mobilepicklist.activities;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -13,13 +11,9 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.Toast;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.image.PhotoPathHelper;
 import com.ts.mobilepicklist.utils.CustomActivity;

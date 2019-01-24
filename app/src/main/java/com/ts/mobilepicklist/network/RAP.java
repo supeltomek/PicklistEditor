@@ -5,13 +5,11 @@ import android.content.SharedPreferences;
 import android.hardware.Camera;
 import android.util.Log;
 import android.view.View;
-
 import com.ts.mobilepicklist.utils.Category;
 import com.ts.mobilepicklist.utils.CategoryList;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

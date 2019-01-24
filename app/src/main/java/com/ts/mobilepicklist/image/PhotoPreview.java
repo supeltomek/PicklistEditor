@@ -5,15 +5,10 @@ import android.graphics.ImageFormat;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
 import android.util.Log;
-import android.view.Display;
-import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.view.WindowManager;
-
 import com.ts.mobilepicklist.network.RAP;
 
-import java.io.IOException;
 import java.util.List;
 
 /**

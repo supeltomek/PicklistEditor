@@ -6,12 +6,9 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.activities.ActTakeItemPhoto;
 import com.ts.mobilepicklist.utils.LayoutWorker;
-
-import java.util.Objects;
 
 /**
  * Created by ts250231 on 2015-04-29.

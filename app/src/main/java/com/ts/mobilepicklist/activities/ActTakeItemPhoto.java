@@ -6,11 +6,8 @@ import android.hardware.Camera;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.AbsoluteLayout;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.ts.mobilepicklist.R;
 import com.ts.mobilepicklist.image.PhotoPreview;
 import com.ts.mobilepicklist.image.TakePhotoTask;
