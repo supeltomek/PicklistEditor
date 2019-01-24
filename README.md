@@ -1,1 +1,4 @@
-# PicklistEditor
+# PLEditor
+Application working with:
+- camera
+- socket communication
